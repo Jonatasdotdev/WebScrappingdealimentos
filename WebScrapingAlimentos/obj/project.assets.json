@@ -153,6 +153,31 @@
           }
         }
       },
+      "Selenium.WebDriver/4.25.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "8.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Selenium.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/130.0.6723.1900-beta": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -401,7 +426,7 @@
           }
         }
       },
-      "System.Text.Json/8.0.3": {
+      "System.Text.Json/8.0.4": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
@@ -687,6 +712,52 @@
         "runtimes/win-x64/native/k5sprt64.dll",
         "runtimes/win-x64/native/krb5_64.dll",
         "runtimes/win-x64/native/krbcc64.dll"
+      ]
+    },
+    "Selenium.WebDriver/4.25.0": {
+      "sha512": "0g/9I5ennfL2ZaQoXsfEPj+GcqrKlcVr1yxh3C/Eed/acNZrC38OaXLorsuHdAHiGn+QySV3iz8/hFcOXvVcoA==",
+      "type": "package",
+      "path": "selenium.webdriver/4.25.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
+        "icon.png",
+        "lib/net8.0/WebDriver.dll",
+        "lib/net8.0/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.25.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/130.0.6723.1900-beta": {
+      "sha512": "aa26vXhUJqydk7zrMGc7uLsm3ysaw1yi52KpimNWcHuXXgndnJG4tjdtISrUtEWD0i4LltiFqsfayac9kczsRQ==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/130.0.6723.1900-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.130.0.6723.1900-beta.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -1382,10 +1453,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.3": {
-      "sha512": "hpagS9joOwv6efWfrMmV9MjQXpiXZH72PgN067Ysfr6AWMSD1/1hEcvh/U5mUpPLezEWsOJSuVrmqDIVD958iA==",
+    "System.Text.Json/8.0.4": {
+      "sha512": "bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
       "type": "package",
-      "path": "system.text.json/8.0.3",
+      "path": "system.text.json/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1450,7 +1521,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.3.nupkg.sha512",
+        "system.text.json.8.0.4.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1610,7 +1681,9 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "HtmlAgilityPack >= 1.11.67",
-      "MySql.Data >= 9.0.0"
+      "MySql.Data >= 9.0.0",
+      "Selenium.WebDriver >= 4.25.0",
+      "Selenium.WebDriver.ChromeDriver >= 130.0.6723.1900-beta"
     ]
   },
   "packageFolders": {
@@ -1619,11 +1692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\WebScrapingAlimentos.csproj",
+      "projectUniqueName": "c:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\WebScrapingAlimentos.csproj",
       "projectName": "WebScrapingAlimentos",
-      "projectPath": "C:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\WebScrapingAlimentos.csproj",
+      "projectPath": "c:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\WebScrapingAlimentos.csproj",
       "packagesPath": "C:\\Users\\winte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\obj\\",
+      "outputPath": "c:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\winte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1657,6 +1730,14 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.25.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[130.0.6723.1900-beta, )"
           }
         },
         "imports": [

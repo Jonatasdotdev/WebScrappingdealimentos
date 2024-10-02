@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HVSUFvVB7ZOx1oaKxxfPQy1ixNU1Fxb4R1kNvdOakGk+w5bM/kptx0EPoQUk6qTtZYMM7w8+a7Wh/ipft9Z3dw==",
+  "dgSpecHash": "uUUm1DU8huSy3tgCGjK3RnIO4cNk6BFx34aemLDIbubtoieDs3HgegROTbaI6ZaS4Q9EjNCs5k0ldBirCWQ35A==",
   "success": true,
   "projectFilePath": "C:\\Users\\winte\\OneDrive\\Documentos\\WebScrapping de composição de alimentos\\WebScrapingAlimentos\\WebScrapingAlimentos.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,8 @@
     "C:\\Users\\winte\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\mysql.data\\9.0.0\\mysql.data.9.0.0.nupkg.sha512",
+    "C:\\Users\\winte\\.nuget\\packages\\selenium.webdriver\\4.25.0\\selenium.webdriver.4.25.0.nupkg.sha512",
+    "C:\\Users\\winte\\.nuget\\packages\\selenium.webdriver.chromedriver\\130.0.6723.1900-beta\\selenium.webdriver.chromedriver.130.0.6723.1900-beta.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
@@ -28,7 +30,7 @@
     "C:\\Users\\winte\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\winte\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\winte\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\winte\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",

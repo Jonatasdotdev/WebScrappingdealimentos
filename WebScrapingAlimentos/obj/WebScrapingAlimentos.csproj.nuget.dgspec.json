@@ -45,6 +45,14 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.25.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[130.0.6723.1900-beta, )"
             }
           },
           "imports": [
