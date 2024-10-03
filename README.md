@@ -1,4 +1,4 @@
-#Web Scraping de Composição de Alimentos
+#Web Scraping de Composição de Alimentos#
 
 Este projeto realiza web scraping de informações sobre a composição de alimentos da base de dados do TBCA (Tabela Brasileira de Composição de Alimentos). As informações coletadas são armazenadas em um banco de dados MySQL.
 Funcionalidades
