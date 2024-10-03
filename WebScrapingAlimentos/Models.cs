@@ -11,6 +11,12 @@ public class Alimento
 public class ComponenteNutricional
 {
     public string? Nome { get; set; }
-    public decimal Valor { get; set; }
     public string? Unidade { get; set; }
+    public decimal ValorPor100g { get; set; }
+    public string? DesvioPadrao { get; set; }
+    public string? ValorMinimo { get; set; }
+    public string? ValorMaximo { get; set; }
+    public string? NumeroDadosUtilizados { get; set; }
+    public string? Referencias { get; set; }
+    public string? TipoDeDados { get; set; }
 }
