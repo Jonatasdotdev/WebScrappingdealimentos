@@ -31,11 +31,11 @@ Requisitos
     Docker
     MySQL Server
 
-Como Executar
+# Como Executar
 
 Clone o repositório
 
-Inicie o contêiner do banco de dados MySQL:
+**Inicie o contêiner do banco de dados MySQL:**
 
 bash
 
