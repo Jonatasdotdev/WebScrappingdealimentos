@@ -1,4 +1,4 @@
-##Web Scraping de Composição de Alimentos##
+**Web Scraping de Composição de Alimentos**
 
 Este projeto realiza web scraping de informações sobre a composição de alimentos da base de dados do TBCA (Tabela Brasileira de Composição de Alimentos). As informações coletadas são armazenadas em um banco de dados MySQL.
 Funcionalidades
@@ -13,7 +13,7 @@ Funcionalidades
     Containerização da aplicação utilizando Docker.
     Implementação de boas práticas de programação e documentação.
 
-Tecnologias Utilizadas
+**Tecnologias Utilizadas**
 
     C#
     .NET Core, .NET 5 ou .NET 6
@@ -21,7 +21,7 @@ Tecnologias Utilizadas
     Docker
     Html Agility Pack para web scraping
 
-Estrutura do Projeto
+**Estrutura do Projeto**
 
     Dockerfile: Configuração para containerização da aplicação.
     src/: Código-fonte da aplicação.
@@ -56,7 +56,7 @@ bash
 
     Verifique a conexão com o banco de dados: Assegure-se de que a aplicação está configurada para se conectar ao banco de dados MySQL.
 
-Contribuição
+**Contribuição**
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar um problema.
 Licença
