@@ -24,8 +24,8 @@ Funcionalidades
 ## Estrutura do Projeto
 
     Dockerfile: Configuração para containerização da aplicação.
-    src/: Código-fonte da aplicação.
-    tests/: Testes unitários (a serem implementados).
+    WebScrapingAlimentos: Código-fonte da aplicação.
+    AlimentosScraper.Tests: Testes unitários 
 
 Requisitos
 
@@ -34,12 +34,7 @@ Requisitos
 
 Como Executar
 
-    Clone o repositório:
-
-    bash
-
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_DIRETORIO>
+Clone o repositório
 
 Inicie o contêiner do banco de dados MySQL:
 
@@ -55,6 +50,14 @@ bash
     docker run --rm web-scraping-alimentos
 
     Verifique a conexão com o banco de dados: Assegure-se de que a aplicação está configurada para se conectar ao banco de dados MySQL.
+
+
+# Imagens
+![Screenshot (616)](https://github.com/user-attachments/assets/0721aa56-d86c-424d-bdfd-db6dd2def417)
+![Screenshot (619)](https://github.com/user-attachments/assets/3ea21365-1a99-476c-8a16-b3774cb880aa)
+
+![Screenshot (623)](https://github.com/user-attachments/assets/7e344931-1427-442a-bece-2e29b033883d)
+
 
 ## Contribuição**
 
