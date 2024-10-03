@@ -11,8 +11,7 @@ Funcionalidades
         Componentes Nutricionais
     Armazenamento dos dados extraídos em um banco de dados MySQL.
     Containerização da aplicação utilizando Docker.
-    Implementação de boas práticas de programação e documentação.
-
+   
 ## Tecnologias Utilizadas
 
     C#
