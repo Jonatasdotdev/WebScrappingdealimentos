@@ -15,7 +15,7 @@ Funcionalidades
 ## Tecnologias Utilizadas
 
     C#
-    .NET Core, .NET 5 ou .NET 6
+    .NET Core, .NET 6
     MySQL
     Docker
     Html Agility Pack para web scraping
